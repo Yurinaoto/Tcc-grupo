@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'betim';
+    src: url(Comfortaa-Light.ttf)format('truetype');
+}
+h1{
+    font-family: 'betim';
+    background-image:linear-gradient(to right, #119973, #33B08D);
+    border-radius: 15px;
+    margin-right: 800px;
+}
+body {
+    padding: 50px;
+    text-align: justify;
+    margin: auto;
+    color: #424242;
+    font-style:oblique;
+}
+.container{
+    background-color: #7e33b0;
+    width: 1000px;
+    height: 100%;
+}
+div{
+    column-count: 3;
+    padding: 60px;
+}
+img{
+    border-radius: 55px;
+    margin: auto;
+}
+p{
+    background-color: #50a089;
+    border-radius: 15px;
+    text-align: center;
+    
+    padding: 30px;
+    margin-top: 50px;
+}
+footer{
+    background-color: brown;
+    width: 1000px;
+    height: 100%;
+}
